@@ -22,7 +22,6 @@ const ProductCard: React.FC<ProductCardProps> = ({
         <Card sx={{ maxWidth: 900, height: 400 }}>
             <CardMedia component="img" height="140" image={image} alt={title} />
             <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
                     {title}
                 <Button onClick={() => onButtonClick()} variant="contained">
                     Show Current
